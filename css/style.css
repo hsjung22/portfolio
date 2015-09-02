@@ -39,6 +39,7 @@ h1,h2,h3,h4,h5,h6{
 }	
 p{
 	margin:0;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 ul{
 	margin:0;
@@ -59,12 +60,6 @@ label{
   font-weight: 400;
   color:#34353a;
  font-family: 'Montserrat', sans-serif;
-}
-.logo  a h1:hover{
- text-decoration:none;
-}
-.logo a h1 span {
-  color:#b42b36;
 }
 ul.side_nav{
   position: fixed;
@@ -98,7 +93,7 @@ ul.side_nav li a:hover{
   min-height: 100vh;
 }
 .banner-info {
-  margin-top: 40vh;
+  margin-top: 35vh;
 }
 .banner-info p {
    font-size: 0.9em;
@@ -122,6 +117,9 @@ height:32px;
 width:32px;
 display:inline-block;
 }
+
+
+
 .scroll-down {
   margin: 12% auto 0;
   text-align: center;
@@ -356,6 +354,16 @@ h3.title.two {
   color:#53bed6;
   font-size: 4em;
 }
+/*about page*/
+.about-set{
+  background-color: teal;
+  height: 700px;
+}
+
+
+
+
+
 /*--welcome--*/
 .copy {
    text-align: center;
