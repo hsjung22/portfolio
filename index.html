@@ -7,6 +7,7 @@
 	<link rel="shortcut icon" href="images/H-icon.png">
 	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 	<link href="css/full-slider.css" rel="stylesheet" type='text/css' />
+	<link href="css/animate.css" rel="stylesheet" type='text/css' />
 <!-- Custom Theme files -->
 	<link href="css/style.css" rel='stylesheet' type='text/css' />
 	<script src="js/jquery-1.11.1.min.js"></script>
@@ -21,7 +22,7 @@
 			$(".scroll").click(function(event){		
 				event.preventDefault();
 					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
-					});
+			});
 		});
 	</script>
 </head>
@@ -50,7 +51,7 @@
 						 <div class="logo">
 							  <h1>HyunJung</h1>
 						  </div>
-						<p>Full Stack Web Developer</p>
+						<p class="animated bounceInRight">Full Stack Web Developer</p>
 						<div class="scroll-down">
 							<!-- <h4>SCROLL DOWN</h4> -->
 							<a class="downarrow scroll" href="#portfolio"><span></span></a>
@@ -70,7 +71,9 @@
 <!--portfolio-->
 
 	<div id="portfolio">
-		<!-- <h2 class="text-center">Projects</h2> -->
+		<div class="display-head">
+			<h2 class="text-center">Projects</h2>
+		</div>
 
 	<header id="myCarousel" class="carousel slide">
         <!-- Indicators -->
@@ -110,7 +113,7 @@
             <div class="item">
             	<div class="container">
             		<div class="text-center top20">
-                		<a href="http://classchatbeta.herokuapp.com/" target="_blank"><span class="classchat"></span></a>
+                		<a href="https://classchatbeta.herokuapp.com/" target="_blank"><span class="classchat"></span></a>
             		</div>
             		<div class="proj-description top10 text-center">
             			<p>Co-op project that attempts to lessen the dread of creating a social presence in a new lecture room by allowing users to share knowledge and connect with their peers through the message board or the chatroom. <u>Technologies used</u>: <em>Ruby on Rails, Node.js, PostgrewSQL, SOcket.IO, Bootstrap.</em></p>
@@ -148,61 +151,42 @@
 
 <!-- end portfolio -->
 	<div id="about">
-		<div class="container about-set">
 
+		<div class="container about-set">
+			<h2 class="about-me-margin">About me</h2>
+			<div class="col-md-8">
+				<p class="about-paragraph">I'm Hyun (Sean), a Bay Area based full-stack web developer. I passionately research and write code to craft clean, responsive, and user-friendly websites. I have experience developing in three full stacks--MEAN, Ruby on Rails, and LAMP. I am always actively looking for opportunities to learn something new in the industry. What I love most about programming is being able to bring people's ideas into reality.</p>
+			</div>
+			<div class="col-md-4 text-center">
+				<span class="profile-pic"></span>
+			</div>
 		</div>
 	</div>
 
  <!--start-contact-->
-	 <div class="follow" id="contact"> 
-		<div class="container">
-			<div class="follow-top"> 
-				<div class="follow-one"> 
-					<div class="col-md-4 follow-left">
-						<div class="f-1">
-							<a href="#"><label class="fb"></label></a>
-							<p><a href="#">FACEBOOK</a></p>
-						</div>
-					</div>
-					<div class="col-md-4 follow-left">
-						<div class="f-1">
-							<a href="#"><label class="twit"></label></a>
-							<p><a href="#">TWITTER</a></p>
-						</div>
-					</div>
-					<div class="col-md-4 follow-left">
-						<div class="f-1">
-							<a href="#"><label class="google"></label></a>
-							<p><a href="#">GOOGLE PLUS</a></p>
-						</div>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="follow-one follow-two"> 
-					<div class="col-md-4 follow-left">
-						<div class="f-1">
-							<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-							<p><a href="mailto:example@email.com">mail@user.com</a></p>
-						</div>
-					</div>
-					<div class="col-md-4 follow-left">
-						<div class="f-1">
-							<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
-							<p>+ 808 233 4445</p>
-						</div>
-					</div>
-					<div class="col-md-4 follow-left">
-						<div class="f-1">
-							<span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
-							<p>756 gt globel Place, CD-Road,M 07 435.</p>
-						</div>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
+	 <div id="contact"> 
+		<div class="contact-me text-center">
+
+			<div class = "contact-inline">
+				<a href="https://www.linkedin.com/in/hsjung" target="_blank"><span class="linkedin"></span><p>LinkedIn</p></a>
 			</div>
+		
+			<div class = "contact-inline">
+				<a href="https://github.com/hsjung22" target="_blank"><span class="my-git"></span><p>GitHub</p></a>
+			</div>
+		
+			<div class = "contact-inline">
+				<a href="mailto:hsjung22@gmail.com?Subject=Hey%20Hyun" target="_top"><span class="mail"></span><p>Email</p></a>
+			</div>
+		
+			<div class = "contact-inline">
+				<a href="images/resume.pdf" target="_blank"><span class="resume"></span><p>Resume</p></a>
+			</div>
+			
 		</div>
 	</div>
 	<!--follow-end-->
+
 
 	<!--//contact-->
 
