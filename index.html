@@ -1,0 +1,205 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>HyunJung</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="shortcut icon" href="images/H-icon.png">
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<link href="css/full-slider.css" rel="stylesheet" type='text/css' />
+	<link href="css/animate.css" rel="stylesheet" type='text/css' />
+<!-- Custom Theme files -->
+	<link href="css/style.css" rel='stylesheet' type='text/css' />
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+<!--webfonts-->
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+<!--//webfonts-->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+			});
+		});
+	</script>
+</head>
+<body>
+<!--start-home-->
+	<ul class="side_nav">
+		<li><a class="active scroll" href="#home"></a></li>
+		<li><a class="scroll" href="#portfolio"></a></li>
+		<li><a class="scroll" href="#about"></a></li>
+		<li><a class="scroll" href="#contact"></a></li>
+	</ul>
+
+
+		<div class="banner" id="home">
+			<div class="header-top">
+				<div class="container">	
+
+				 <div class="clearfix"></div>
+			<!-- script-for-menu -->
+		    </div>
+		  </div>
+		<!--banner-->	
+		<div class="container">	
+		      <!-- script-for-menu -->	  	 
+				  <div class="banner-info">	
+						 <div class="logo">
+							  <h1>HyunJung</h1>
+						  </div>
+						<p class="animated bounceInRight">Full Stack Web Developer</p>
+						<div class="scroll-down">
+							<!-- <h4>SCROLL DOWN</h4> -->
+							<a class="downarrow scroll" href="#portfolio"><span></span></a>
+						</div>
+				  </div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+<!--portfolio-->
+
+	<div id="portfolio">
+		<div class="display-head">
+			<h2 class="text-center">Projects</h2>
+		</div>
+
+	<header id="myCarousel" class="carousel slide">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+            	<div class="container">
+            		<div class="text-center top20">
+                		<a href="http://52.88.93.195:8000/#/" target="_blank"><span class="puppysit"></span></a>
+                	</div>
+	            	<div class="proj-description top10 text-center">
+	            		<p>Web app that relieves separation anxiety dogs feel while their owners are away by finding dog-sitters around your convenient neighborhood. <u>Technologies used</u>: <em>MongoDB, Express.js, Node.js, AngularJS, Bootstrap.</em></p>
+	            		<a href="https://github.com/hsjung22/Juke_and_Rocky" target="_blank"><img class="top10" src="images/git.png"></a>
+	            	</div>
+            	</div>
+            </div>
+
+            <div class="item">
+            	<div class="container">
+            		<div class="text-center top20">
+                		<a href="https://drawingwithsocket.herokuapp.com/" target="_blank"><span class="drawing"></span></a>
+            		</div>
+            		<div class="proj-description top10 text-center">
+            			<p>Real-time web app that allows users to illustrate ideas cooperatively. <u>Technologies used</u>: <em>Socket.IO, Node.js, Paper.js, Bootstrap.</em></p>
+            			<a href="https://github.com/hsjung22/drawing_with_socketIO" target="_blank"><img class="top10" src="images/git.png"></a>
+            		</div>
+        		</div>
+            </div>
+
+            <div class="item">
+            	<div class="container">
+            		<div class="text-center top20">
+                		<a href="https://classchatbeta.herokuapp.com/" target="_blank"><span class="classchat"></span></a>
+            		</div>
+            		<div class="proj-description top10 text-center">
+            			<p>Co-op project that attempts to lessen the dread of creating a social presence in a new lecture room by allowing users to share knowledge and connect with their peers through the message board or the chatroom. <u>Technologies used</u>: <em>Ruby on Rails, Node.js, PostgresSQL, Socket.IO, Bootstrap.</em></p>
+            			<a href="https://github.com/hsjung22/ClassChat" target="_blank"><img class="top10" src="images/git.png"></a>
+            		</div>
+        		</div>
+            </div>
+
+            <div class="item">
+            	<div class="container">
+            		<div class="text-center top20">
+                		<a href="https://lostacostresreyes.herokuapp.com/#/" target="_blank"><span class="lostacos"></span></a>
+            		</div>
+            		<div class="proj-description top10 text-center">
+            			<p>Volunteered to build a website for a local taco truck in San Jose, Simple yet effectively designed to provide details about the restaurant. <u>Technologies used</u>: <em>AngularJS, Node.js, Google and Yelp API.</em></p>
+            			<a href="https://github.com/hsjung22/taco_truck" target="_blank"><img class="top10" src="images/git.png"></a>
+            		</div>
+        		</div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+
+    </header>
+
+    </div>
+
+
+
+<!-- end portfolio -->
+	<div id="about">
+
+		<div class="container about-set">
+			<h2 class="about-me-margin">About me</h2>
+			<div class="col-md-8">
+				<p class="about-paragraph">I'm Hyun (Sean), a Bay Area based full-stack web developer. I passionately research and write code to craft clean, responsive, and user-friendly websites. I have experience developing in three full stacks--MEAN, Ruby on Rails, and LAMP. I am always actively looking for opportunities to learn something new in the industry. What I love most about programming is being able to bring people's ideas into reality.</p>
+			</div>
+			<div class="col-md-4 text-center">
+				<span class="profile-pic"></span>
+			</div>
+		</div>
+	</div>
+
+ <!--start-contact-->
+	 <div id="contact"> 
+		<div class="contact-me text-center">
+
+			<div class = "contact-inline">
+				<a href="https://www.linkedin.com/in/hsjung" target="_blank"><span class="linkedin"></span><p>LinkedIn</p></a>
+			</div>
+		
+			<div class = "contact-inline">
+				<a href="https://github.com/hsjung22" target="_blank"><span class="my-git"></span><p>GitHub</p></a>
+			</div>
+		
+			<div class = "contact-inline">
+				<a href="mailto:hsjung22@gmail.com?Subject=Hey%20Hyun" target="_top"><span class="mail"></span><p>Email</p></a>
+			</div>
+		
+			<div class = "contact-inline">
+				<a href="images/resume.pdf" target="_blank"><span class="resume"></span><p>Resume</p></a>
+			</div>
+			
+		</div>
+	</div>
+	<!--follow-end-->
+
+
+	<!--//contact-->
+
+		<script type="text/javascript">
+			$('.carousel').carousel({
+        		interval: 2000 //changes the speed
+    		})
+			$(document).ready(function() {						
+				$().UItoTop({ easingType: 'easeOutQuart' });	
+			});
+		</script>
+
+		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+</body>
+</html>
