@@ -60,8 +60,8 @@ footer {
   display:inline-block;
 }
 
-.lostacos{
-  background:url(../images/lostacos.png) no-repeat 50% 0px;
+.readable{
+  background:url(../images/readable.png) no-repeat 0% 0px;
   height: 400px;
   width: 500px;
   display:inline-block;
