@@ -96,7 +96,7 @@ ul.side_nav li a:hover{
   margin-top: 35vh;
 }
 .banner-info p {
-   font-size: 0.9em;
+  font-size: 0.9em;
   font-weight: 400;
   color: #34353a;
   line-height: 2em;
@@ -104,18 +104,13 @@ ul.side_nav li a:hover{
   margin: 1% auto 0;
   text-align: center;
 }
-.scroll-down h4{
-  color: #34353a;
-  font-weight: 400;
-  font-size: 1em;
-  margin-bottom: 10px;
-}
-.scroll-down a span{
-background:url(../images/down_arrow.png) no-repeat 0px 0px;
-margin-top: 15px;
-height:32px;
-width:32px;
-display:inline-block;
+
+.scroll-down a{
+  background:url(../images/down_arrow.png) no-repeat 0px 0px;
+  margin-top: 15px;
+  height:32px;
+  width:32px;
+  display:inline-block;
 }
 
 
@@ -224,6 +219,8 @@ h3.title {
 .contact-inline{
   display: inline-block;
 }
+
+
 
 /*----top-move------*/
 #toTop {
