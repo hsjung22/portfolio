@@ -8,14 +8,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
   margin-bottom: 20px;
 }
 
-
-
-
 html, body{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 100%;
-	background: #FFf;
+	background: #FFF;
 }
+
 body a {
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
@@ -23,9 +21,11 @@ body a {
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
 }
+
 a:hover{
  text-decoration:none;
 }
+
 input[type="button"],input[type="submit"],li.parallelogram{
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
@@ -33,43 +33,53 @@ input[type="button"],input[type="submit"],li.parallelogram{
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
 }
+
 h1,h2,h3,h4,h5,h6{
-	margin:0;
- font-family: 'Montserrat', sans-serif;
+  margin:0;
+  font-family: 'Montserrat', sans-serif;
 }
+
 p{
 	margin:0;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
+
 ul{
 	margin:0;
 	padding:0;
 }
+
 label{
 	margin:0;
 }
+
 /*--start-header--*/
 .header-top {
   padding: 2em 0em 0 0;
 }
+
  .logo {
   text-align: center;
 }
+
 .logo  a h1{
   font-size:9em;
   font-weight: 400;
   color:#34353a;
- font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
+
 ul.side_nav{
   position: fixed;
   right: 3%;
   top: 39%;
   z-index: 1;
 }
+
 ul.side_nav li{
-display:block;
+  display:block;
 }
+
 ul.side_nav li a{
 	width:13px;
 	height:13px;
@@ -82,6 +92,7 @@ ul.side_nav li a{
 	display:block;
 	margin-bottom:1em;
 }
+
 ul.side_nav li a:hover{
 	background: #faacb4;
 	border:2px solid #faacb4;
@@ -92,11 +103,13 @@ ul.side_nav li a:hover{
   background: white;
   min-height: 100vh;
 }
+
 .banner-info {
   margin-top: 35vh;
 }
+
 .banner-info p {
-   font-size: 0.9em;
+  font-size: 0.9em;
   font-weight: 400;
   color: #34353a;
   line-height: 2em;
@@ -104,73 +117,76 @@ ul.side_nav li a:hover{
   margin: 1% auto 0;
   text-align: center;
 }
-.scroll-down h4{
-  color: #34353a;
-  font-weight: 400;
-  font-size: 1em;
-  margin-bottom: 10px;
-}
-.scroll-down a span{
-background:url(../images/down_arrow.png) no-repeat 0px 0px;
-margin-top: 15px;
-height:32px;
-width:32px;
-display:inline-block;
-}
 
-
+.scroll-down a{
+  background:url(../images/down_arrow.png) no-repeat 0px 0px;
+  margin-top: 15px;
+  height:32px;
+  width:32px;
+  display:inline-block;
+}
 
 .scroll-down {
   margin: 12% auto 0;
   text-align: center;
 }
-/*--about--*/
-/*about page*/
+
 .profile-pic{
   background:url(../images/profile.png) no-repeat 0px 0px;
   height: 279px;
   width: 215px;
   display:inline-block;
 }
+
 #about {
   background: #F4F4F4;
   padding: 5em 0;
 }
+
 .about-set{
   background-color: #34a6f3;
   height: auto;
   padding-bottom: 30px;
 }
+
 .about-me-margin{
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
 .about-paragraph{
   font-size: 1.3em;
 }
+
 h3.title {
   font-size: 2.5em;
   font-weight: 400;
   color: #34353a;
-  font-family: 'Montserrat', sans-serif;text-align:center;
+  font-family: 'Montserrat', sans-serif;
+  text-align:center;
   margin-bottom:1em;
 }
+
 .ab-grid {
   padding:0;
 }
+
 .pic img {
   width:100%;
 }
+
 .text {
   background-color: #53bed6;
   min-height: 550px;
   padding: 4em;
 }
+
 .ab-grid.text h4 {
   font-size: 1.5em;
   line-height: 1.6em;
   color: #fff;
 }
+
 .ab-grid.text p{
   font-size:0.9em;
   line-height: 1.8em;
@@ -179,7 +195,6 @@ h3.title {
   margin: 1em 0;
 }
 
-/*--contact--*/
 .contact_desc{
   padding:4em 0;
 }
@@ -223,6 +238,22 @@ h3.title {
 }
 .contact-inline{
   display: inline-block;
+}
+
+.display-head{
+  padding-top: 17px;
+  margin-bottom: 25px;
+  height: 70px;
+  color: white;
+  background-color: #34a6f3;
+}
+
+.project-description {
+  padding-top: 30px;
+}
+
+hr.dotted-style {
+	border-top: 1px dotted #8c8b8b;
 }
 
 /*----top-move------*/

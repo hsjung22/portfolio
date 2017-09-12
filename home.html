@@ -6,7 +6,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<link rel="shortcut icon" href="images/H-icon.png">
 	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-	<link href="css/full-slider.css" rel="stylesheet" type='text/css' />
+	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
 	<link href="css/animate.css" rel="stylesheet" type='text/css' />
 <!-- Custom Theme files -->
 	<link href="css/style.css" rel='stylesheet' type='text/css' />
@@ -27,7 +27,7 @@
 	</script>
 </head>
 <body>
-<!--start-home-->
+
 	<ul class="side_nav">
 		<li><a class="active scroll" href="#home"></a></li>
 		<li><a class="scroll" href="#portfolio"></a></li>
@@ -35,119 +35,136 @@
 		<li><a class="scroll" href="#contact"></a></li>
 	</ul>
 
-
-		<div class="banner" id="home">
-			<div class="header-top">
-				<div class="container">
-
-				 <div class="clearfix"></div>
-			<!-- script-for-menu -->
-		    </div>
-		  </div>
-		<!--banner-->
-		<div class="container">
-		      <!-- script-for-menu -->
-				  <div class="banner-info">
-						 <div class="logo">
-							  <h1>HyunJung</h1>
-						  </div>
-						<p class="animated bounceInRight">Web Developer</p>
-						<div class="scroll-down">
-							<!-- <h4>SCROLL DOWN</h4> -->
-							<a class="downarrow scroll" href="#portfolio"><span></span></a>
-						</div>
-				  </div>
+	<div class="banner" id="home">
+		<div class="header-top">
+			<div class="banner-info">
+				<h1 class="logo">HyunJung</h1>
+				<p class="animated bounceInRight">Web Developer</p>
+				<div class="scroll-down">
+					<a class="downarrow scroll" href="#portfolio"></a>
+				</div>
 			</div>
 		</div>
-
-
-
-
-
-
-
-
-
-<!--portfolio-->
+	</div>
 
 	<div id="portfolio">
 		<div class="display-head">
 			<h2 class="text-center">Projects</h2>
 		</div>
-
-	<header id="myCarousel" class="carousel slide">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
-        </ol>
-
-        <!-- Wrapper for Slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-            	<div class="container">
-            		<div class="text-center top20">
-                		<a href="https://secret-sands-62027.herokuapp.com/#/" target="_blank"><span class="puppysit"></span></a>
-                	</div>
-	            	<div class="proj-description top10 text-center">
-	            		<p>Web app that relieves separation anxiety dogs feel while their owners are away by finding dog-sitters around your convenient neighborhood. <u>Technologies used</u>: <em>MongoDB, Express.js, Node.js, AngularJS, Bootstrap.</em></p>
-	            		<a href="https://github.com/hsjung22/Juke_and_Rocky" target="_blank"><img class="top10" src="images/git.png"></a>
-	            	</div>
-            	</div>
-            </div>
-
-
-
-            <div class="item">
-            	<div class="container">
-            		<div class="text-center top20">
-                		<a href="https://drawingwithsocket.herokuapp.com/" target="_blank"><span class="drawing"></span></a>
-            		</div>
-            		<div class="proj-description top10 text-center">
-            			<p>Real-time web app that allows users to illustrate ideas cooperatively. <u>Technologies used</u>: <em>Socket.IO, Node.js, Paper.js, Bootstrap.</em></p>
-            			<a href="https://github.com/hsjung22/drawing_with_socketIO" target="_blank"><img class="top10" src="images/git.png"></a>
-            		</div>
-        		</div>
-            </div>
-
-            <div class="item">
-            	<div class="container">
-            		<div class="text-center top20">
-                		<a href="https://classchatbeta.herokuapp.com/" target="_blank"><span class="classchat"></span></a>
-            		</div>
-            		<div class="proj-description top10 text-center">
-            			<p>Co-op project that attempts to lessen the dread of creating a social presence in a new lecture room by allowing users to share knowledge and connect with their peers through the message board or the chatroom. <u>Technologies used</u>: <em>Ruby on Rails, Node.js, PostgreSQL, Socket.IO, Bootstrap.</em></p>
-            			<a href="https://github.com/hsjung22/ClassChat" target="_blank"><img class="top10" src="images/git.png"></a>
-            		</div>
-        		</div>
-            </div>
-
-            <div class="item">
-            	<div class="container">
-            		<div class="text-center top20">
-                	<a href="https://readable-3a236.firebaseapp.com/" target="_blank"><span class="readable"></span></a>
-            		</div>
-            		<div class="proj-description top10 text-center">
-            			<p>Content and comment web app. Users will be able to post content to predefined categories, comment on their posts and other users' posts, and vote on posts and comments. Users will also be able to edit and delete posts and comments. <u>Technologies used</u>: <em>React, Redux, Firebase, Bootstrap</em></p>
-            			<a href="https://github.com/hsjung22/readable" target="_blank"><img class="top10" src="images/git.png"></a>
-            		</div>
-        		</div>
-            </div>
-        </div>
-
-        <!-- Controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="icon-prev"></span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="icon-next"></span>
-        </a>
-
-    </header>
-
-    </div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<img src="images/readable1.1.png" class="img-responsive center-block" alt="Readable Website Screenshot">
+				</div>
+				<div class="col-md-6">
+					<div class="row">
+						<div class="project-description">
+							<div class="col-md-12">
+								<p>Content and comment web app. Users will be able to post content to predefined categories, comment on their posts and other users' posts, and vote on posts and comments. Users will also be able to edit and delete posts and comments.</p>
+								<p><u>Technologies used</u>: <em>React, Redux, Firebase, Bootstrap</em></p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="project-description">
+							<div class="col-md-12 text-center">
+								<a href="https://readable-project.herokuapp.com/" target="_blank">
+									<i class="fa fa-globe fa-3x"></i>
+								</a>
+								<a href="https://readable-3a236.firebaseapp.com/" target="_blank">
+									<i class="fa fa-github fa-3x"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr class="dotted-style" />
+			<div class="row">
+				<div class="col-md-6">
+					<img src="images/drawing1.1.png" class="img-responsive center-block" alt="Drawing Together Website Screenshot">
+				</div>
+				<div class="col-md-6">
+					<div class="row">
+						<div class="project-description">
+							<div class="col-md-12">
+								<p>Real-time web app that allows users to illustrate ideas cooperatively.</p>
+								<p><u>Technologies used</u>: <em>Socket.io, Node.js, Paper.js, Bootstrap.</em></p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="project-description">
+							<div class="col-md-12 text-center">
+								<a href="https://drawingwithsocket.herokuapp.com/" target="_blank">
+									<i class="fa fa-globe fa-3x"></i>
+								</a>
+								<a href="https://github.com/hsjung22/drawing_with_socketIO" target="_blank">
+									<i class="fa fa-github fa-3x"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr class="dotted-style" />
+			<div class="row">
+				<div class="col-md-6">
+					<img src="images/puppysit1.1.png" class="img-responsive center-block" alt="Puppysit Website Screenshot">
+				</div>
+				<div class="col-md-6">
+					<div class="row">
+						<div class="project-description">
+							<div class="col-md-12">
+								<p>Web app that relieves separation anxiety dogs feel while their owners are away by finding dog-sitters around your convenient neighborhood.</p>
+								<p><u>Technologies used</u>: <em>MongoDB, Express.js, Node.js, AngularJS, Bootstrap.</em></p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="project-description">
+							<div class="col-md-12 text-center">
+								<a href="https://secret-sands-62027.herokuapp.com/" target="_blank">
+									<i class="fa fa-globe fa-3x"></i>
+								</a>
+								<a href="https://github.com/hsjung22/Juke_and_Rocky" target="_blank">
+									<i class="fa fa-github fa-3x"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr class="dotted-style" />
+			<div class="row">
+				<div class="col-md-6">
+					<img src="images/classchat1.1.png" class="img-responsive center-block" alt="Class Chat Website Screenshot">
+				</div>
+				<div class="col-md-6">
+					<div class="row">
+						<div class="project-description">
+							<div class="col-md-12">
+								<p>Co-op project that attempts to lessen the dread of creating a social presence in a new lecture room by allowing users to share knowledge and connect with their peers through the message board or the chatroom.</p>
+								<p><u>Technologies used</u>: <em>Ruby on Rails, Node.js, PostgreSQL, Socket.IO, Bootstrap.</em></p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="project-description">
+							<div class="col-md-12 text-center">
+								<a href="https://classchatbeta.herokuapp.com/" target="_blank">
+									<i class="fa fa-globe fa-3x"></i>
+								</a>
+								<a href="https://github.com/hsjung22/ClassChat" target="_blank">
+									<i class="fa fa-github fa-3x"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+  </div>
 
 
 
